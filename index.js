@@ -39,10 +39,10 @@ function loadingAnimation() {
         duration: 0.9,
         stagger: 0.2
     })
-    gsap.from("#home a", {
+    gsap.from("#home a, .navbar a", {
         y: 70,
         opacity: 0,
-        delay: 0.75,
+        delay: 0.25,
         duration: 0.9,
         stagger: 0.2
     })
