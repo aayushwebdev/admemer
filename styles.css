@@ -31,12 +31,15 @@ span {
 
 .navbar {
     display: flex;
-    height: 70px;
+    /* height: 70px; */
     width: 100%;
-    padding: 0 7%;
+    padding: 1rem 7%;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    z-index: 100;
     background-color: #1a1a1a;
 }
 
@@ -49,7 +52,7 @@ span {
 }
 
 .nav-items a {
-    padding-right: 3rem;
+    margin-left: 3rem;
     text-decoration: none;
     font-size: 1.6rem;
     color: white;
@@ -461,7 +464,7 @@ button:hover {
     }
     .home-content h3 {
         font-size: 5rem;
-        font-weight: 600;
+        font-weight: 800;
     }
     .home-img {
         width: 85vw;
