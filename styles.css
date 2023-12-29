@@ -122,6 +122,156 @@ span {
     padding-bottom: 8rem;
 }
 
+.about {
+    width: 100%;
+    min-height: 100vh;
+    padding: 4rem 7% 2rem;
+    display: flex;
+    gap: 8rem;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.about-content {
+    text-align: left;
+}
+
+.about-content h5 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.about-content h3 {
+    text-align: left;
+    padding-bottom: 2rem;
+}
+
+.about-content p {
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+    line-height: 1.5;
+    color: gray;
+}
+
+.about-img {
+    width: 115vw;
+}
+
+.about-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.vision {
+    width: 100%;
+    background: #FFC107;
+    color: black;
+    min-height: 70vh;   
+    padding: 8rem 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.vision h3{
+    color: black;
+}
+
+.vision p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.button {
+    display: flex;
+    width: 100%;
+    gap: 3rem;
+    padding: 5rem 33%;
+}
+
+.product {
+    width: 100%;
+    min-height: 100vh;
+    padding: 4rem 7% 2rem;
+    text-align: left;
+}
+
+.product h3 {
+    text-align: left;
+    padding-bottom: 2rem;
+}
+
+.product p {
+    font-size: 1.4rem;
+    line-height :1.5;
+    padding-bottom: 8rem;
+}
+
+.product .container {
+    justify-content :space-between;
+    padding-bottom: 4rem;
+    display: flex;
+    /* gap: 3rem; */
+}
+
+.pdt-card {
+    display: flex;
+    gap: 2rem;
+    width:600px;
+    height: 250px;
+    /* border: 1px solid white; */
+    position: relative;
+    background-color: #292929;
+    border-radius: 2rem;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.pdt-card:hover {
+    transform: scale(1.1);
+}
+
+.pdt-img {
+    width: 100%;
+    height: 100%;
+}
+
+.pdt-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.pdt-content {
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.pdt-content h5 {
+    font-size: 2.2rem;
+    line-height: 1.8;
+    color: #ff9800;
+}
+
+.pdt-content p {
+    padding-bottom: 4rem;
+    color: gray;
+}
+
+.pdt-content a {
+    font-size: 1.4rem;
+    color: gray;
+    transition: .5s ease;
+}
+
+.pdt-content a:hover {
+    color: #ffc107;
+    font-size: 1.6rem;
+}
+
+/* Why Memes */
+
 .memes {
     min-height: 100vh;
     width: 100%;
@@ -169,189 +319,6 @@ span {
     font-size: 1.4rem;
     color: gray;
     text-align: center;
-}
-
-.about {
-    width: 100%;
-    min-height: 100vh;
-    padding: 4rem 7% 2rem;
-    display: flex;
-    gap: 8rem;
-    /* justify-content: center; */
-    align-items: center;
-}
-
-.about-content {
-    text-align: left;
-}
-
-.about-content h5 {
-    font-size: 1.8rem;
-    line-height: 1.5;
-}
-
-.about-content h3 {
-    text-align: left;
-    padding-bottom: 2rem;
-}
-
-.about-content p {
-    font-size: 1.5rem;
-    margin-bottom: 5rem;
-    line-height: 1.5;
-    color: gray;
-}
-
-.about-img {
-    width: 115vw;
-}
-
-.about-img img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-
-.vision {
-    width: 100%;
-    background: #FFC107;
-    color: black;
-    height: 70vh;   
-    padding: 8rem 0;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.vision h3{
-    color: black;
-}
-
-.vision p {
-    font-size: 1.8rem;
-    line-height: 1.5;
-}
-
-.button {
-    display: flex;
-    width: 100%;
-    gap: 3rem;
-    padding: 5rem 33%;
-}
-
-.igbtn {
-    color: black;
-    background-color: #ff9800;
-    border: 1px solid #ffc107;
-    padding: 1.5rem 3rem;
-    font-size: 1.6rem;
-    border-radius: 3rem;
-    letter-spacing: 1px;
-    text-decoration: none;
-    transition: .5s ease;
-}
-
-.home-btn:hover {
-    background: transparent;
-    border: 1px solid #ff9800;
-}
-
-.linkedinbtn {
-    color: black;
-    background-color: none;
-    border: 2px solid #ff9800;
-    padding: 1.5rem 4rem;
-    border-radius: 1rem;
-    font-size: 1.6rem;
-    letter-spacing: 1px;
-    text-decoration: none;
-    transition: .5s ease;
-}
-
-.linkedinbtn:hover {
-    /* background-color: #ff9800; */
-    /* border: none;     */
-    background: linear-gradient(to left, rgb(255, 177, 7), #ff7300);
-
-}
-
-.product {
-    width: 100%;
-    min-height: 100vh;
-    padding: 4rem 7% 2rem;
-    text-align: left;
-}
-
-.product h3 {
-    text-align: left;
-    padding-bottom: 2rem;
-}
-
-.product p {
-    font-size: 1.4rem;
-    line-height :1.5;
-    padding-bottom: 8rem;
-}
-
-.product .container {
-    justify-content :space-between;
-    padding-bottom: 4rem;
-    display: flex;
-    gap: 3rem;
-}
-
-.pdt-card {
-    display: flex;
-    gap: 2rem;
-    width:600px;
-    height: 250px;
-    /* border: 1px solid white; */
-    background-color: #292929;
-    border-radius: 2rem;
-    overflow: hidden;
-    transition: .5s ease;
-}
-
-.pdt-card:hover {
-    transform: scale(1.1);
-}
-
-.pdt-img {
-    width: 80%;
-    height: 100%;
-}
-
-.pdt-img img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-
-.pdt-content {
-    align-items: center;
-    padding: 3rem 0;
-}
-
-.pdt-content h5 {
-    font-size: 2.2rem;
-    line-height: 1.8;
-    color: #ff9800;
-}
-
-.pdt-content p {
-    padding-bottom: 4rem;
-    color: gray;
-}
-
-.pdt-content a {
-    font-size: 1.4rem;
-    color: gray;
-    transition: .5s ease;
-}
-
-.pdt-content a:hover {
-    color: #ffc107;
-    font-size: 1.6rem;
 }
 
 .footer {
@@ -461,8 +428,17 @@ button:hover {
     .home-img {
         width: 55vw;
     }
+    .about {
+        gap: 3rem;
+    }
     .about-img {
-        width: 185vw;
+        width: 195rem;
+    }
+    .vision .button {
+        padding: 5rem 13%;
+    }
+    .button .home-btn {
+        padding: 1.5rem 5rem;
     }
     .product .container {
         display: block;
@@ -484,11 +460,14 @@ button:hover {
         margin-bottom: 6rem;   
     }
     .home-content h3 {
-        font-size: 5.5rem;
+        font-size: 5rem;
+        font-weight: 600;
     }
     .home-img {
-        position: relative;
-        left: 18%;
+        width: 85vw;
+    }
+    .heading {
+        font-size: 3.5rem;
     }
     .about {
         display: block;
@@ -498,8 +477,19 @@ button:hover {
     .about-img {
         width: 70vw;
     }
+    .product {
+        margin-top: 4rem;
+    }
     .pdt-card {
         width: 100%;
+        display: block;
+        height: 500px;
+    }
+    .pdt-img {
+        height: 70%;
+    }
+    .pdt-content {
+        padding: 2rem;
     }
     .button {
         padding: 2rem 12%;
